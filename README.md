@@ -9,3 +9,7 @@ The project is in the early stages and supports Crews but not Flows. OpenAI is t
 ```bash
 npm run build
 ```
+
+## Create a Project
+
+Use the [JCrewAI Example](https://github.com/rmtuckerphx/jcrewai-example) project to get started.
