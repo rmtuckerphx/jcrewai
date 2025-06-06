@@ -1,0 +1,30 @@
+{
+  "name": "jcrewai",
+  "version": "0.1.0",
+  "description": "Multi-agent automation framework written in TypeScript. Patterned after CrewAI.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "tsc && bash ./scripts/copy-files.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/lodash": "^4.17.17",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "openai": "^5.1.1",
+    "reflect-metadata": "^0.2.2",
+    "yaml": "^2.8.0"
+  }
+}
